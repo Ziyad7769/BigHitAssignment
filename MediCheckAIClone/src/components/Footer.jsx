@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Element from "../assets/Element.png"
+import Element from "../assets/element.png"
 
 export default function Footer() {
   return (
