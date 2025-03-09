@@ -90,7 +90,7 @@ export default function HowItWorks() {
         <img src={Element} alt={Element} />
       </div>
 
-      <div className="max-w-7xl mx-auto relative">
+      <div className="max-w-7xl mx-auto relative px-8">
         <h1 className="text-center mb-8 font-poppins text-4xl font-[600]">How It Works</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative">

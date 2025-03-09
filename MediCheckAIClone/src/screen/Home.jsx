@@ -18,7 +18,7 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
         <div className="video-content pt-12">
-          <Header /> {/* Navbar / Header */}
+          <Header bgColor={""}/> {/* Navbar / Header */}
           <Hero />
         </div>
       </div>

@@ -4,7 +4,7 @@ import CommunitySupportImage from "../assets/community.png";
 export default function CommunitySupport() {
   return (
     <section className="w-full px-4 py-12 sm:py-16 sm:px-6 md:px-8 lg:px-16 mb-16 sm:mb-24 md:mb-32 lg:mb-40">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center px-8">
         {/* Text Content - First on Mobile, Second on Desktop */}
         <div className="order-1 lg:order-2">
           <div className="text-gray-500 mb-2 font-roboto font-medium text-xl sm:text-2xl leading-tight">

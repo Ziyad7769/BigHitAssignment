@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/MediCheck.AI.png";
 
-const Navbar = () => {
+const Navbar = ({ bgColor }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full py-4 px-6 md:px-20 relative h-20">
+    <nav className={"w-full py-4 px-6 md:px-20 relative h-20" + " " + bgColor}>
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-8">
         {/* Logo */}
         <div className="flex items-center">
