@@ -15,7 +15,9 @@ const Navbar = ({ bgColor }) => {
         {/* Logo */}
         <div className="flex items-center">
           <NavLink to="/" className="text-2xl font-bold">
-            <img src={logo} alt="website logo" className="w-40 md:w-auto" />
+            <span className="text-black font-poppins font-extrabold text-5xl">
+              MediCheck.<span className="text-blue-700">AI</span>
+            </span>
           </NavLink>
         </div>
 

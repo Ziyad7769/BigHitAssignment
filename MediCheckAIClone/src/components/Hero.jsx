@@ -16,7 +16,7 @@ export default function Hero() {
         <img src={Vector} alt="Health Dashboard" width={859} />
       </div>
       <section className="w-full py-16 px-6 md:px-16 relative">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center md:px-8">
           {/* Left Section - Text & Button */}
           <div className="z-10 mt-20">
             <h1 className="text-4xl md:text-[64px] font-semibold text-black mb-2 font-poppins">
@@ -47,7 +47,7 @@ export default function Hero() {
             </div>
 
             {/* Blue stats card */}
-            <div className="absolute -bottom-6 left-10 -translate-x-1/2 md:-bottom-67 md:-left-10 md:translate-x-0 z-20 w-[140px] md:w-[270px]">
+            <div className="absolute -bottom-6 left-15 -translate-x-1/2 md:-bottom-67 md:-left-10 md:translate-x-0 z-20 w-[140px] md:w-[270px]">
               <img
                 src={BlueStatsCard}
                 alt="Health Stats"
@@ -72,12 +72,12 @@ export default function Hero() {
             </div>
 
             {/* AI visualization */}
-            <div className="block md:hidden absolute -bottom-5 -right-12  md:-bottom-68 md:-right-35 z-29 w-[180px] md:w-[450px]">
+            <div className="block md:hidden absolute -bottom-6 -right-10  md:-bottom-68 md:-right-35 z-29 w-[250px] md:w-[450px]">
               <img src={Lamp} alt="AI Technology" className="w-full h-auto" />
             </div>
 
             {/* Curved line */}
-            <div className="absolute top-45 left-28 md:top-97 md:left-65 z-50 w-[125px] md:w-[250px]">
+            <div className="absolute top-45 left-35 md:top-97 md:left-65 z-50 w-[125px] md:w-[250px]">
               <img
                 src={CurvedLine}
                 alt="Decorative Line"

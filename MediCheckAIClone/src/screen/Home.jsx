@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header"; // Navbar
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
-import video from "../assets/heroVideo.mp4";
+import video from "../assets/heroVideoComp.mp4";
 import Footer from "../components/Footer";
 import MedicalInsights from "../components/MedicalInsight";
 import LifestyleTips from "../components/LifeStyleTips";

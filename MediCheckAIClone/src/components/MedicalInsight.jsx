@@ -4,12 +4,13 @@ import MedicalInsightsImage from "../assets/medical-insight.png";
 export default function MedicalInsights() {
   return (
     <section className="w-full py-8 md:py-16 px-4 md:px-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center px-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center md:px-8">
         <div className="order-2 md:order-1 relative">
           <img
             src={MedicalInsightsImage}
             alt="Medical Insights"
             className="w-full h-auto "
+            loading="lazy"
           />
         </div>
 
